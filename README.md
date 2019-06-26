@@ -35,3 +35,5 @@ Notes:
 	   The JS files should have .js extensions
 	   UIXML files will have .XML extension. UIXML files should be kept in the respective LANG folders
 	   EAR files should have .ear extension. The EAR files should be already present in WLS deployment. The script will just do a re-deploy. if the EAR file is not already deployed, then the script will not be able to re-deploy.
+       The utility will check if any of the above mentioned files are present, and if found it will apply the units after taking necesary backups
+	   
