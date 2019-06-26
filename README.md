@@ -10,8 +10,10 @@ Usage:
 	   arg#2 directory that contains patch units
 
 Notes:
+    
     1) The script should be run in a machine having WLST configured, and also should have connection to Oracle DB using sql*plus.
        Ideally this would be run from Weblogic server where both the above will be available.
+	
     2) property file should export the below environment variables. Ideally there will be one property file per environment.
 	          
 		 Variable name                   Particulars
